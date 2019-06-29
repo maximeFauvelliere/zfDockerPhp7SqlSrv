@@ -6,7 +6,7 @@ services:
         build: .
 
         ports:
-          - "80:80"
+          - "83:80"
           - "443:443"
         restart: always
         depends_on:
@@ -36,7 +36,7 @@ services:
 
  phpmyadmin:
    image: phpmyadmin/phpmyadmin
-   container_name: phpmyadmin
+   container_name: phpmyadminZf1
    depends_on:
      - db
    restart: always
@@ -51,7 +51,7 @@ services:
       expose:
         - 1025
       ports:
-          - "8025:8025"
+          - "8012:8012"
 
 volumes:
    testdb:
