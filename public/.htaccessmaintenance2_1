@@ -1,0 +1,10 @@
+
+#donne l'environement de developpement 
+SetEnv APPLICATION_ENV development
+#maintenance
+RewriteEngine on
+# optionally exclude your own IP from being redirected
+# RewriteCond %{REMOTE_ADDR} !^123\.45\.67\.89
+RewriteCond %{REQUEST_URI} !/maintenance\.html$
+RewriteCond %{REQUEST_FILENAME} !\.(jpeg|png|css|ico)$
+RewriteRule ^.*$ /maintenance.html [R=302,L]

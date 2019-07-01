@@ -1,0 +1,1224 @@
+body{
+    width: 1280px;
+    min-height: 700px;
+    margin: auto;
+    color: #605046;
+font-family: 'Abel','trebuchet ms',sans-serif;
+/*-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;*/
+/* user-select: none;*/
+
+    
+}
+
+
+
+img{
+    border: none;
+}
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/*a revoir pour safarie qui lmaisse bordure bleu sur map cadre autou des liens*/
+a:link img,a:active img,a:visited img,a:hover img {
+  border:0!important;
+  border: none;
+  outline: none;
+}
+
+a img{
+    border: none;
+}
+
+a:visited,a:hover,a:link{
+    text-decoration: none
+}
+
+#header{
+    background-image: url("./img/fond-header2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+}
+#identity{
+    font-size: 11pt;
+    margin-left: 13.5em;
+    padding-top: 1.7em;
+    font-family:'ubuntu','trebuchet ms',sans-serif;
+    
+}
+#nom{
+    line-height: 0px; 
+    
+}
+#email{
+    line-height: 0px;
+    color: #83B81A;
+ 
+}
+#menutop{
+    position: relative;
+    top: -48px;
+    left:200px;
+    margin-left: 106px;
+    font-size: 12pt;
+    max-width: 1024px;
+    height: 130px;
+    margin-top: 35px;
+    
+}
+#Tab_menuTop{
+    min-width: 850px;
+    border-width:0px; 
+    border-collapse: collapse;
+/*    position: relative;
+    top: 20px;*/
+}
+
+#tr_head{
+   /*height: 43px;*/
+}
+
+#Tab_menuTop tr{
+    height: 25px;
+}
+#tr_menu{
+    height: 50px;
+    border-bottom: 1.5px solid #605046;
+}
+
+#Tab_menuTop span{
+    padding-right: 12px;
+}
+
+#Tab_menuTop td{
+    
+    border-right: 1px solid;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+#logout{
+    border-left: 1px solid;
+    border-color: #94C95F;
+/*    float: right;*/
+    height: 18px;
+    position: absolute;
+/*    right: 18%;*/
+    top: 20px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    right: 15px;
+   
+    
+}
+.m_top:hover{
+    cursor: pointer;
+}
+
+
+#tr_menu td{
+    width: 54px;
+    text-align: center;
+    overflow: hidden;
+}
+#tr_menu span{
+    position: relative;
+    top: -8px;
+}
+#marches{
+  width: 136px!important; 
+}
+#offres{
+/*    width: 116px!important;*/
+}
+#filtre{
+   width: 180px!important; 
+   text-align: right !important;
+   width: 180px !important;
+}
+
+
+.comun{
+   width: 54px!important;
+   padding-left: 2px!important;
+   padding-right: 2px!important;
+}
+.comun:hover{
+    cursor:pointer;
+}
+#pict_marches,#pict_courbes{
+    width: 55px;
+    height: 40px;
+/*    display: inline-block;*/
+    background-image: url("./img/top/marches.png");
+    background-repeat: no-repeat;
+/*    background-position: -7px -5px;*/
+    position: relative;
+    text-align: center;
+/*    display: inline-block;*/
+margin: auto;
+    
+    
+}
+#pict_offres{
+    width: 55px;
+    height: 40px;
+/*    display: inline-block;*/
+    background-image: url("./img/top/bz.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    margin: auto;
+    
+    
+}
+#pict_compte{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/compte.png");
+    background-repeat: no-repeat;
+    position: relative;
+   
+    margin: auto;
+    
+}
+#pict_messages{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/message.png");
+    background-repeat: no-repeat;
+    position: relative;
+    
+    margin: auto;
+    
+}
+#pict_taches{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/message.png");
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+    
+}
+#pict_documents{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/documents.png");
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+    
+}
+#pict_accueil{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/accueil.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+#pict_aide{
+    width: 55px;
+    height: 40px;
+    background-image: url("./img/top/aide.png");
+    background-repeat: no-repeat;   
+    margin: auto;
+    
+}
+#pict_filtre{
+    width:49px;
+    height: 40px;
+/*    background-image: url("./img/top/filtre.png");*/
+    background-repeat: no-repeat; 
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    
+    
+}
+/*-------------Notification----------------*/
+.notification{
+    text-align: center;
+    font-size: 7pt;
+    font-weight: bold;
+    color: black;
+    border-color: black!important;
+    /*temp*/
+    width:54px;
+    height: 43px;
+    
+}
+
+/*-------------bt analyse---------------------*/
+
+ #pastilleAnal{
+                
+    background-image: url("./img/top/pastille.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    height: 28px;
+    left: -12px;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+    top: 17px;
+    width: 29px;
+            }
+#pastilleContrat{
+    
+    background-image: url("./img/picto_ct_en_cours.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    height: 48px;
+    left: 160px;
+    position: relative;
+    top: 130px;
+    width: 60px;
+    z-index: 2000;
+}
+
+#pastilleOpti{
+    
+    background-image: url("./img/picto_opti_en_cours.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    height: 48px;
+    left: 240px;
+    position: relative;
+    top: 70px;
+    width: 60px;
+    z-index: 2000;
+}
+
+#pastilleContrat  span{
+    position: relative;
+    left: 28px;
+}
+
+#pastilleOpti  span{
+    position: relative;
+    left: 28px;
+}
+
+
+
+
+/*----------------fin bt analyses--------------*/
+.notifications.active{
+    
+    width:54px;
+/*    height: 43px;*/
+    background-image: url("./img/top/pastille.png");
+    background-position: center  0px;
+   /* background-size: 35%;*/
+    background-repeat: no-repeat; 
+    /*display: inline-block;*/
+    line-height: 1;
+    cursor: pointer;
+    
+}
+
+.notificationTxt{
+    margin-bottom: 5px;
+    padding-top: 6px;
+    text-align: center;
+    min-height: 15px;
+}
+
+
+
+
+/*---------------*/
+#titreNav{
+    color: #83B81A;
+    font-family: 'Abel',sans-serif;
+    font-size: 36pt;
+/*    left: 16px;
+    position: absolute;
+    top: 110px;*/
+    text-align: left;
+    
+}
+#suTitreNav{
+    color: #614A41;
+    font-family: 'Abel',sans-serif;
+    font-size: 19pt;
+    line-height: 0;
+/*    position: absolute;*/
+/*    text-align: right;*/
+/*    top: 180px;*/
+/*    width: 220px;*/
+padding-left: 22px;
+    
+}
+#codeC{
+    
+/*    background-image: url("./img/codeCou.png");
+    background-repeat: no-repeat;
+    height: 34px;
+    left: 20em;
+    position: relative;
+    top: 45px;
+    width: 440px;*/
+}
+
+#c_left{
+     float: left;
+    min-height: 700px;
+    position: relative;
+    top:140px;
+    width: 290px;
+/*    background-color: red;*/
+}
+#main{
+/*    background-color: blue;*/
+    /*border: solid 1px;*/
+/*    padding-left: 50px;*/
+    float:left;
+   
+    
+    position: relative;
+    z-index: 1001;
+    width: 900px;
+    min-height: 900px;
+    /*background-color: white;*/
+    
+}
+#main table{
+    /*width: 100%!important;*/
+    /*width: 80%!important;*/
+}
+#main table td {
+    vertical-align: top; 
+}
+#T_silo{
+    width: 20%;
+    
+}
+#canvas_siloNav{
+   background-image: url("./img/silo-menu-states.png");
+    background-repeat: no-repeat;
+    height: 181px;
+    left: 35px;
+    position: relative;
+    top: 0px;
+    width: 208px;
+    z-index: 1002;
+   
+    
+}
+
+
+
+.snav_accueil{
+   background-position: 0px;
+}
+.snav_transaction{
+  
+   background-position: -219px;
+}
+.snav_administration{
+   background-position: -438px;
+}
+.snav_prospection{
+   background-position: -877px;
+}
+.snav_execution{
+   background-position: -658px;
+}
+
+#test{
+    width: 208px;
+    height: 181px;
+}
+
+/*------menu-----*/
+
+#t_menu{
+   border-width:0px; 
+   border-collapse: collapse;
+   margin-left: 40px;
+}
+
+.navLeftMenu{
+   
+   
+}
+
+#t_menu thead tr,.tfooter_td{
+    height: 40px;
+    
+}
+.thead_td,.tfooter_td{
+    height: 78px;
+    border-width:0px 1px 0px 0px; 
+    border-style:solid; 
+    border-color:#75C058;
+}
+.row_menu{
+    height: 35px;
+    max-height: 35px;
+   
+    
+}
+/* dernière ligne pour dernier trait */
+.last{
+   border-width:0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color:#75C058;
+    
+    
+}
+.main_menu{
+    border-width:1px 1px 0px 0px; 
+    border-style:solid; 
+    border-color:#75C058;
+    max-width:110px; 
+    text-align: right;
+    padding-right: 0.5em;
+    font-size: 12pt;
+    
+    
+}
+.main_menu.active{ 
+    background-image: url("./img/flecheMenu.png");
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    color: #75C058;
+}
+
+.lst_sub_menu{
+    display: none;
+    font-size: 8pt;
+    left: 8em;
+    min-width: 100px;
+    position: absolute;
+    
+     
+}
+.lst_sub_menu.active{
+    display: block;
+    color: #75C058;
+}
+
+.main_menu li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/*---filtre----*/
+#filtre:hover{
+   cursor:pointer; 
+}
+#D_filter{
+/*    border: 1px solid #614A41;
+    font-family: 'Abel',sans-serif;
+    font-size: 9pt;
+    left: 83%;
+    position: absolute;
+    top: 70px;
+    width: 108px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select:none;*/
+padding: 0px;
+display: none;
+border: 1px solid;
+}
+.popup,.ui-widget-content{
+    padding: 0px;
+    border: solid 1px;
+}
+#D_filter checkbox:checked{
+    /*background-color: #75C058;    */
+}
+.D-filter{
+    border: none!important;
+    cursor: pointer;
+}
+.T_F{
+    background-color: #84b819;
+    width: 100%;
+    color: white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    
+}
+.T_F span{
+    padding-left: 3px;
+}
+#rec_filter{
+    background-color: #84b819;
+    width: 100%;
+    text-align: center;
+    
+}
+#rec_filter:hover{
+    cursor: pointer;
+}
+/*main ---silo det----*/
+
+#silo_det_wrapper{
+/*    min-height: 500px;
+    width: 20%;
+    background: #614A41;
+    float: left;*/
+    
+}
+
+/*main --grid--*/
+#grid_wrapper{
+    
+    
+}
+.tab_wrapper{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #546E3B;
+    margin-left: 3em;
+    padding-bottom: 10px;
+}
+.Tittle_tab{
+    font-size: 12pt;
+    color: #546E3B;
+}
+#t1{
+  width: 100%;  
+}
+#t2_t3{
+  width: 100%;
+  
+}
+#t2{
+   min-width: 80%; 
+  float: left;
+ 
+}
+#t3{
+   width: 20%;
+   display: inline-block;
+   padding-bottom: 1.1em;
+/*   position: relative;
+    width: 20%;*/
+  
+   
+    
+}
+#t4{
+  width: 100%;
+}
+.wijmo-wijgrid{
+    border: none;
+}
+.wijmo-wijgrid-table .ui-state-default {
+/*   border-width:0px 1px 3px;
+   border-color: #ffffff;*/
+   
+}
+.wijgridtd{
+/*   border-width:0px 1px 3px;
+   border-color: #ffffff; */
+border-color: green;
+}
+.wijmo-wijgrid-row{
+/*    border-collapse: collapse;*/
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    
+}
+.wijmo-wijgrid-row td, .wijgridth{
+    border-style: solid!important;
+    border-width: 0px 0px 4px 1px !important;
+    border-color: #ffffff!important;
+    padding: 5px;
+    
+}
+.wijmo-wijgrid-table .ui-state-highlight{
+    background:#D6DE52;
+/*    border-width: 0px 1px;
+    border-color: #ffffff;*/
+   
+}
+
+.ui-dialog-content{
+    background-color: white!important;
+}
+
+.wijmo-wijgrid-row{
+/*    background: #B5ABA1;*/
+    background: #EDECE6;
+    
+}
+.wijgridth{
+/*    background:#614A41!important;*/
+ background:#928580!important;
+    color: #ffffff!important;
+}
+
+.wijmo-wijgrid-alternatingrow {
+/*  background:#C7C1B8;*/
+background:#C7C0B9;
+}
+
+
+/*-------------------------GD SILO-----------------*/
+
+#rsr{
+    position: relative;
+    top: -50px;
+}
+/*--------wrapper Content---------*/
+#wrapperContent{
+    position: relative;
+    top: 70px;
+}
+
+/*-------grid messagerie-----------*/
+#wrapperMessagerie{
+    overflow: auto;
+}
+
+#wrapperMessagerie2{
+    height: 350px;
+    overflow: auto;
+}
+
+.wijmo-wijgrid-headerrow a{
+    color: white!important;
+}
+#pjointe,.pjointe{
+     width: 16px;
+     height:16px;
+     background-image: url("./img/picto_trombone.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+/* icone pour envois upload de fichier joint producteur*/
+#pjointe{
+    position: relative;
+    left: 400px;
+    top:29px;
+    width: 28px;
+    height: 29px;
+}
+
+.gridDel,#gridDel,.ico_del{
+    width: 16px;
+     height:16px;
+     background-image: url("./img/ico_del.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     
+}
+.ico_mod{
+   width: 16px;
+     height:16px;
+     background-image: url("./img/ico_mod.png");
+     background-repeat: no-repeat;
+     background-size: 100%; 
+}
+
+.lu{
+   width: 16px;
+     height:16px;
+     background-image: url("./img/top/pastille.png");
+     background-repeat: no-repeat;
+     background-size: 100%; 
+}
+
+.alertes{
+     border: 1px solid #604350;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12pt;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#headerPC{
+    width: 135px;
+    height:159px;
+    background-image: url("./img/logo-maison-e-BZ.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    
+}
+#mainConnexion{
+    margin: auto;
+    position: relative;
+    top: 10px;
+    width: 800px;
+}
+#txtCdv{
+    border: solid 1px #614A41;
+    height: 200px;
+    overflow: auto;
+}
+#txtCdv p{
+    padding-left: 15px;
+}
+#pcform{
+    padding-top: 10px;
+}
+#pcform label{
+    font-size: 12pt;
+}
+
+#checkBoxCDV{
+    text-align: right;
+    padding-bottom: 20px;
+    
+}
+#para,.testresult{
+    font-size: 10pt;
+}
+#btSubmit{
+    margin: auto;
+}
+
+/**form**/
+.form{
+    
+}
+
+.lot{
+    padding-top: 25px;
+}
+
+.form input[type="text"]{
+    border: solid 1px;
+    border-color: #84b819;
+    height: 20px;
+    max-width: 200px;
+}
+
+
+
+.form td{
+    padding: 3px;
+    text-align: left;
+    padding-right:  15px;
+/*    max-width: 266.66px;
+    width: 266.66px;*/
+    font-family:'ubuntu','trebuchet ms',sans-serif!important;
+    font-weight: normal;
+}
+.wraperLabel{
+    background-color: #84B819;
+    color: white;
+    font-size: 12pt;
+    height: 25px;
+    padding-left: 5px;
+    width: 100%;
+    font-family: 'abel','trebuchet ms',sans-serif!important;
+}
+
+.form .I_text{
+    text-align: right;
+}
+
+.form .I_text label{
+    padding-right: 7px;
+}
+
+.form .In_text{
+    margin-top:10px;
+    width:60px;
+}
+
+.form ul{
+    padding-left: 0px;
+}
+
+
+
+#formCreateAnal ul li{
+    padding-bottom: 6px;
+    text-align: right;
+}
+
+#btInit, #btCreateA, #btAffectA{
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+#btAddSFerme{
+    left:0px;
+    
+}
+
+#detailStructure {
+    padding-left: 50px;
+}
+
+#messageriecontent{
+    border: solid 2px #84b819;
+    border-radius:15px;
+    width: 800px;
+    min-height: 200px;
+    margin-left: 50px;
+    padding: 15px;
+    
+}
+
+.bt{
+     cursor: pointer;
+    margin-left: 50px;
+    text-align: center;
+     padding: 6px;
+     border: solid 2px #DEDC00;
+     border-radius: 15px;
+     color:black;
+     background-color: #84b819;
+     width: 90px;
+    
+}
+#wrapperSendMail{
+   
+    
+}
+
+.ligneButton{
+    text-align: center;
+}
+
+#wrapperSendcontent{
+    margin-left: 50px;
+    padding: 15px;
+    width: 500px;
+    height:330px;
+    border: solid 2px #84b819;
+    border-radius: 15px;
+    color:black;
+    
+}
+
+
+
+#btContratsSigne{
+    
+}
+
+/*historique facture*/
+
+#detailHisto{
+    
+    padding-left: 60px;
+    
+}
+#detailHisto table{
+   
+}
+.det_fact{
+    
+    width: 150px;
+    
+}
+
+/*compte*/
+#struForm .wraperLabel{
+    min-width: 150px;
+}
+
+.border_null{
+    border:inherit;
+    border-right:none!important;
+    
+}
+/*------------------------------*/
+
+.btLock{
+    background-image: url("../images/metier/lock.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 30px;
+    float: right;
+    top:-5px;
+    
+}
+
+.ctheader{
+    margin-bottom: 12px;
+}
+.contrats table td,th{
+    /*border-style: solid!important;
+    border-width: 0px 0px 4px 1px !important;
+    border-color: #ffffff!important;
+    padding: 5px;*/
+    
+}
+
+
+.contrats thead td{
+     background:#3F3731!important;
+    color: #ffffff!important;
+}
+
+.contrats td{
+    background-color: #C7C1B8;
+}
+
+/*.contrats tr:nth-child(odd) td {
+  background-color: #DEDC00;
+}
+.contrats tr.odd td {
+  background-color: #DEDC00;
+}*/
+
+ .ctSelected td{
+    background-color: #DEDC00;
+}
+
+.listTab{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.transaction{
+    width: 100%;
+}
+
+#tabLotFormcontent{
+    
+  width: 850px;
+  
+    
+}
+
+
+#setContrat{ 
+/*    min-width: 700px; */
+    width: 800px;
+}
+
+#WrapperOpti{
+    width: 2000px;
+}
+
+/*revoir pour IE*/
+.recap tr:nth-child(odd) td {
+  background-color: #B5ABA1;
+}
+.recap tr.odd td {
+  background-color: #C7C1B8;
+}
+
+/*---popup cdv-----*/
+
+.popupCdv{
+   
+    min-width: 900px;
+    z-index: 100000!important;
+    
+}
+
+/*--- replace la profondeur a une valeur moins élebée pour permettre l'empilement des multiple dialog
+*en conservant les ineraction quand il se chevauche
+*/
+.ui-disabled{
+    /*z-index: 90000!important;*/
+}
+
+/*-----------test---------*/
+#gridStruct{
+   /* width: inherit!important;*/
+}
+
+.titleGrid{
+    font-size: 12pt;
+}
+
+.ui-state-active{
+    color: #604046!important;
+}
+
+.cursor{
+    
+    cursor: pointer;
+}
+
+/**
+* over cursor pointer
+*
+**/
+
+.main_menu,.pointer:hover {
+    cursor: pointer;
+}
+
+
+.cadenas{
+    width: 24px;
+    height: 30px;
+    margin: auto;
+    background-image: url("/images/metier/lock.png");
+    background-position: center;
+}
+
+#T_Global td{
+   
+    border-width: 0 0 0 1px !important;
+    font-size: 10pt;
+    
+    
+}
+
+.wijmo-wijgrid-row .index_col{
+    
+    text-align:left!important;
+    
+}
+.index_col div{
+    
+    float: left;
+    
+
+}
+
+.index_col span{
+    
+    text-overflow : ellipsis;
+    
+}
+
+.level_1 .index_col{
+    padding-left: 30px;
+    
+}
+
+.level_2 .index_col{
+    padding-left: 60px;
+}
+
+.level_3 .index_col{
+    
+    padding-left: 90px;
+    
+}
+
+.level_4 .index_col{
+    
+    padding-left: 100px;
+    
+}
+
+.select_periode{
+    width: 165px;
+}
+
+#blockMentions{
+    display: none;
+    position: relative;
+    top:900px;
+}
+#mentions{
+    
+    font-family: 'Ubuntu','trebuchet ms',sans-serif;
+    font-size: 10pt;
+    text-align: left;
+    width: 900px;
+    margin: auto;
+    margin-left: 230px;
+    padding-top: 15px;
+}
+
+#com_analyse{
+    width: 100%;
+    min-height: 80px;
+    background-color: #EDECE6;
+}
+
+.fleche-synthese{
+    width: 25px;
+    height: 23px;
+    background-image:  url("/styles/img/fleche-synth.png");
+    background-position: -12px 0px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.fleche-synthese-active{
+     background-position: 0px -12px;
+    margin-top: 0px;
+}
+
+
+
+/*a.ongletSous a:hover,a:link,a:visited,a:active{
+    
+    color:red;
+    font-size: 10pt;
+    
+}*/
+
+
+#bzAccordion .wijmo-wijaccordion-content{
+     font-family:'ubuntu','trebuchet ms',sans-serif;
+}
+#txt-infos{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wrapper-con{
+    width: 90%;
+    margin: auto;
+}
+
+#td-center-con{
+
+    min-width: 400px;
+    
+}
+
+#imgP1{
+    background-image:  url("/styles/img/page_identification.png");
+    background-repeat: no-repeat;
+    height: 640px;
+    left: -15px;
+    position: relative;
+    width: 288px;
+}
+
+#imgP2{
+    background-image:  url("/styles/img/page_identification2.png");
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 279px;
+    position:relative;
+}
+
+
+
+
+
+
+
+

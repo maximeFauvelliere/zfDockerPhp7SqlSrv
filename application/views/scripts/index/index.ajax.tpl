@@ -1,0 +1,1 @@
+Votre session n'est plus active. Veuillez vous connecter à nouveau.

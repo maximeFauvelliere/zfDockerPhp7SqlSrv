@@ -1,0 +1,15 @@
+/* 
+    Document   : bzError
+    Created on : 6 juil. 2012, 09:25:02
+    Author     : Administrateur
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+    color: red;
+}
+

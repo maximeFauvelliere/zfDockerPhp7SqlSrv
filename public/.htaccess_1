@@ -1,0 +1,19 @@
+#maintenance
+RewriteEngine on
+# optionally exclude your own IP from being redirected
+ RewriteCond %{REMOTE_ADDR} !^123\.45\.67\.89
+RewriteCond %{REQUEST_URI} !/maintenance\.html$
+RewriteRule ^(.*)$ /maintenance.html [R=503,L]
+
+
+#donne l'envirronnement de developpement 
+SetEnv APPLICATION_ENV development
+#mod rewrite redirection pour toutes les requetes
+RewriteEngine On
+#RewriteCond %{REQUEST_URI} !=infoOffres.html
+#RewriteCond %{REQUEST_URI} !=menuerror.html test bruno pour retour xmlnul et eviter la boucle bootstrap
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]

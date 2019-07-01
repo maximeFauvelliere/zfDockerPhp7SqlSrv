@@ -1,0 +1,1131 @@
+/* 
+    Document   : basic
+    Created on : 9 mars 2012, 12:54:43
+    Author     : bruno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+
+#preloader{
+   position: absolute;
+   width: 150px;
+   height:170px;
+   background-image:url("/images/preloader.gif");
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   left:50%;
+   top:50%;
+   z-index: 19999;
+}
+
+#preload_matif,.preload_opti{
+    background-image:url("/images/minipreloader.gif");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+}
+
+.preload_opti{
+    position:absolute;
+    top:0px; 
+}
+
+/* page P_connexion mot de passe*/
+.page{
+    width: 1200px;
+    height: 700px;
+    color: #604F46;
+    font-family: 'Abel','trebuchet ms',sans-serif;
+}
+
+#titrePConnection{
+    margin: auto;
+    text-align: center;
+}
+
+/* mise en page en tableau*/
+#tablecontent{
+    width: 900px;
+}
+
+#tableNav{
+    width: 150px;
+}
+
+/**--notifications-----**/
+/*.notifications{
+    background-color: yellow;
+    height: 50px;
+    left: 450px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    width: 110px;
+}*/
+
+
+
+/*#messages,#taches{
+    background-color: black;
+    color: white;
+    display: inline;
+    font-size: 8pt;
+    height: 50px;
+    padding: 3px;
+    width: 50px;
+}*/
+
+
+
+h1{
+    color: #C1C100;
+    
+}
+
+.cdvKo{
+    color: red;
+}
+
+.login{
+    
+      border: 2px solid #83B81A;
+    border-radius: 15px 15px 15px 15px;
+    margin: 50px auto auto;
+    padding: 20px;
+    width: 300px;
+    
+    
+}
+.login input{
+    /*margin-top:15px; */
+}
+
+#identifiant,#pass{
+    min-width: 300px;
+}
+#pass{
+    margin-bottom: 9px;
+}
+#btConnect{
+    margin-bottom: 8px;
+}
+/*--silo----*/
+#canvas{
+    
+    
+/*    overflow: auto;*/
+    
+/*    min-height: 600px;*/
+float: left;
+    left: -120px;
+    position: relative;
+    width: 220px;
+    
+    
+}
+
+#canvasCellFermes svg{
+/*    display: block;
+    margin: auto;*/
+}
+
+#canvasCellFermes{
+    width:900px;
+/*    overflow:auto;*/
+    clear: both;
+    margin-left: 50px;
+    
+}
+
+#slideDownCell{
+    padding-top:20px;
+    margin-bottom: 25px;
+    
+}
+
+#comSlide{
+    width: 900px;
+    height: 1px;
+    border-top: solid 2px #83B81A;
+
+}
+
+
+
+.btComSlide{
+    background-image: url("/styles/img/plus_moins.png");
+   
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -35px;
+    top: -15px;
+    cursor: pointer;
+}
+
+.btComSlideactive{
+   
+     background-image: url("/styles/img/plus_moins.png");
+    background-position: -30px 0px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+     position: absolute;
+    right: -35px;
+    top: -15px;
+    cursor: pointer;
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+.content{
+    clear: both;
+    width: 890px;
+    position: relative;
+    top: 70px;
+    height: 638px;
+}
+
+/*---------grid------------------------*/
+.grilles{
+    display: block;
+    padding: 10px;
+/*    padding-left: 50px; */
+    margin-left: 170px;
+    max-width: 1300px;
+    
+    
+}
+
+
+.table ui-state-hover{
+    
+    background-color: red!important;
+    font-weight: normal;
+    
+}
+
+
+.table{
+     border-top: 2px solid #596F29;
+    padding-left: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+/*    max-width: 1000px;*/
+}
+
+.table1{
+   margin-top: 20px;
+/*   min-height: 320px;*/
+  
+}
+
+.table2{
+    
+/*    width: 630px;*/
+   
+/*    float: left;*/
+}
+
+.table3{
+/*    width:280px;*/
+    
+/*    clear: both;*/
+}
+
+.action{
+    width: 100%;
+    text-align: right;
+}
+.action img{
+    padding-left:15px;
+    cursor: pointer;
+}
+.fact{
+    width: 400px;
+}
+
+#selectType{
+    position: relative;
+    top: -9px;
+}
+
+
+/*--bt--*/
+#btStFerme{
+/*float: left;*/
+    cursor: pointer;
+}
+
+/*----formulaires------*/
+.form{
+    font-size: 10pt;
+}
+.listform{
+    list-style-type: none;
+}
+
+.surface.detail{
+    
+}
+
+/*-------------------*/
+
+.bztooltip {
+/*    background: url("/images/tooltip/black_arrow.png");
+    color: #EEEEEE;*/
+    background-color: #605046;
+    
+/*    display: none;*/
+   
+   
+    min-height: 50px;
+    padding: 5px;
+    min-width: 110px;
+    z-index: 9999;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .bztooltip  li{
+      font-size: 8pt;
+      font-family: 'ubuntu','trebuchet ms',sans-serif;
+      color: #ffffff!important;
+      text-decoration: none;
+      list-style-type: none;
+      padding-left: 8px !important;
+      font-weight: normal!important;
+  }
+  
+/*------dialog--------*/  
+  #dialog{
+      
+      
+  }
+  #dialogAffec{
+      height: 400px;
+      overflow: auto;
+  }
+  
+  #dialogAffec form{
+      
+      height: 300px;
+      overflow: auto;
+  }
+  
+  .popup table{
+     
+  }
+  
+/*-----*/ 
+  .messageAccueil{
+      clear: both;
+      background-color: red;
+      color: white;
+      border-radius:15px;
+      padding-top:5px;
+      padding: 10px;
+      width: 165px;
+  }
+  
+  .footer{
+      
+     clear: both; 
+  }
+  
+  .btAnalyse{
+      float: left;
+      
+  }
+  
+  a.btAnalyse a:link,a:hover,a:visited{
+      text-decoration: none;
+      color: black;
+  }
+
+
+  .deconnection{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+  }
+
+  .loader{
+      
+      position: absolute;
+      z-index: 0;
+      left: 150px;
+      
+  }
+  
+  /*menu*/
+  .subMenuInactive{
+      color:red;
+      font-style: italic;
+      opacity: 0.3;
+      
+  }
+  
+  .D-filter{
+     
+     
+  }
+  
+  .D-filter .ui-icon{
+      width: 16px; 
+      height: 16px; 
+      background-image: url("./bztheme/images/ui-icons_84b819_256x240.png")!important;
+  }
+  
+  .D-filter .ui-dialog-titlebar{
+      background-color: white!important;
+  }
+  
+  
+  
+  #icoFilter{
+      width: 53px;
+      height:44px;
+      color:black;
+      background-image: url("/styles/img/top/filtre.png");
+      background-position: left center;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 4px
+  }
+  
+  #icoFilter span{
+      position: relative;
+      top: 8px;
+      left: 45px;
+  }
+  
+  #btVisu{
+      cursor: pointer;
+  }
+  
+  /* dialog confirm*/
+  .D_confirm{
+      border: solid 1px #596F29!important;
+      background-color: white;
+      padding: 0px!important;
+  }
+  
+  .bzModale{
+      position: absolute;
+      top: 0px;
+      left:0px;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      opacity: 0.7;
+      background-color: gray;
+  }
+  .form{
+      background-color: white;
+      position: relative;
+      top:-120px;
+      
+      
+      
+      
+  }
+  
+  .bzHeader{
+      height: 60px;
+      background-color: #84B819;
+      color: white;
+      text-align: center;
+      font-size: 16pt;
+      
+  }
+  .bzHeader span{
+      position: relative;
+      top:10px;
+  }
+  
+  .clear{
+      clear:both;
+  }
+  
+  .table a:hover{
+      font-size: inherit;
+  }
+  
+  /*----------override bztheme -----*/
+  #bzAccordion .ui-state-default{
+      background-color: #928580;
+  }
+  
+  #bzAccordion +  h3 a:link,a:visited,a:hover{
+      color:white!important;
+  }
+  
+  .wijmo-wijaccordion .wijmo-wijaccordion-content{
+      padding: 0px!important;
+  }
+  
+  
+  /*-------caroussel---------*/
+  
+  .bz_caroussel{
+       float: left;
+    position: relative;
+    width: 840px;
+      
+  }
+  
+  .bz_caroussel ul li p{
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+  }
+  
+  .bznext-button{
+      
+  }
+  
+  .imgana{
+      
+  }
+  
+  .wrapperbt{
+      
+      text-align: center;
+      
+      float: right;
+     
+     background-color: #C7C0B9;
+/*    background: transparent;*/
+      
+  }
+  
+  .wrapperBtTxt{
+      background-image: url("/styles/img/plus_moins.png");
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+      height:30px; 
+      width: 30px;
+      position: relative;
+      
+  }
+  
+ .wrapperbt,.wrapperBtTxt:hover{
+      cursor: pointer;
+      
+  }
+  
+  /**-----bzChart-------**/
+  .bzChart{
+      border: 0px!important;
+  }
+  
+  
+  
+  
+  /*----------- messsages-------------*/
+  #formSelect{
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      top: 0px;
+      overflow: hidden;
+  }
+  
+  /*------------- accueil-------------------*/
+  
+  #a_acc_prospect{
+      position:absolute;
+      top:130px;
+      left: 77px;
+      opacity: 0;
+  }
+  #a_acc_maison{
+      position:absolute;
+      top:311px;
+      left: 263px;
+      opacity: 0;
+  }
+  
+  #a_acc_prospect:hover{
+      opacity: 1;
+  }
+  
+  #a_acc_maison:hover{
+      opacity: 1;
+  }
+  
+#acc_prospect {
+      background-image: url("/images/accueil/prosp.png");
+      background-repeat: no-repeat;
+      width: 156px;
+      height: 167px;
+      
+  }
+  
+  #fond{
+      background-image: url("/images/accueil/fond.png");
+      background-repeat: no-repeat;
+      width: 106px;
+      height: 29px;
+      position:relative;
+      top:127px;
+      left: 39px;
+  }
+  
+  #face{
+     
+      
+      position:relative;
+      top:-28px;
+      left: 0px;
+     
+  }
+  
+  
+ 
+  
+ #acc_maison {
+      background-image: url("/images/accueil/maison.png");
+      background-repeat: no-repeat;
+      width: 101px;
+      height: 71px;
+      
+      
+  }
+  
+  /***pj loader *****/
+  
+  #pjLoader{
+    height: 35px;
+    left: 520px;
+    position: absolute;
+    top: 115px;
+    width: 35px;
+    display: none;
+  }
+  
+  #pjLoader_SC{
+     height: 26px;
+    left: 200px;
+    position: absolute;
+    top: 19px;
+    width: 26px;
+    z-index: 1200;
+    
+  }
+  
+  #wrapperPreloader{
+    color: white;
+    left: 300px;
+    position: absolute;
+    text-align: center;
+    top: 69px;
+    z-index: 1200;
+   
+      
+  }
+  
+  #wrapperPreloader h5{
+      
+       background-color: transparent!important;
+  }
+  
+  
+  /*--------------------anlalyses com-----------------------*/
+   #btDepotBubble{
+          background-color: black;
+    color: white;
+    font-size: 8pt;
+    height: 35px;
+    left: 680px;
+    position: relative;
+    top: -80px;
+    width: 120px;
+       
+   }
+    
+   #structPie,#cultPie
+    {
+            width: 400px;
+            height: 300px;
+            border:none!important;
+    }
+    
+    #wrapperNbCt{
+         margin: auto;
+         position: absolute;
+         text-align: center;
+         top: 45px;
+         width: 100%;
+        
+    }
+    
+    #wrapperNbCt span{
+          
+  
+    }
+    
+    #pCT{
+        
+        background-image: url("/styles/img/top/pastille.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 35px;
+        left: 0;
+        line-height: 26pt;
+        position: relative;
+        top: 0;
+        width: 100%;
+  
+    }
+    
+    #qtTxt{
+        width:100%;
+        text-align:center;
+        font-size: 6pt;
+          line-height: 0;
+          position:relative;
+          top: -17px;
+          left:115px;
+        }
+    
+    
+    
+    .analyseCom h3,.analyseCom h5{
+        height:35px!important;
+        padding-top:9px;
+        background-color:#C7C0B9;
+        color:white;
+        text-align: center;
+        margin-top:0px!important;
+        
+        
+    }
+    /*------analyse commerciale--------*/
+     #Acom_mask1 {
+        height:400px;
+        width:825px;
+        background-color:#808080;
+        position:absolute;
+        top:0px;
+        left:0px;
+        z-index:2000;
+        
+   
+    }
+    
+     #table_detail{
+         margin:auto;
+         width:600px;
+         padding-bottom:25px;
+     }
+     
+     #context-help{
+         position: absolute;
+         right: 38px;
+         top: 7px;
+         display: none;
+         }
+
+    
+    
+    
+    .bz_caroussel{
+        width:830px;
+        overflow:hidden;
+        font-family: 'ubuntu','trebuchet ms',sans-serif;
+        text-align: left;
+    }
+    
+    .bz_caroussel h3{
+        font-weight: normal!important;
+    }
+    
+   .bz_caroussel ul{
+         display:table;
+         width:1900px;
+         padding:0!important;
+         position:relative;
+         background-color:#EDECE6;
+        }
+        
+    .bz_caroussel li{
+        float: left;
+        width: 830px;
+        list-style: none outside none;
+        margin: 0;
+        position: relative;
+        
+        display:table;
+          
+    }
+    .bz_caroussel tr{
+            width:100%;
+            background-color:#EDECE6;
+        }
+    .bz_caroussel td{
+        
+        vertical-align:middle!important;
+/*        text-align:center!important;*/
+        border-bottom:solid 5px #ffffff;
+        border-right:solid 3px #ffffff;
+        
+        }
+        
+/**-----test synthe global------**/
+
+#demo  tr{
+    
+    background-color: #ff3333!important;
+   
+    
+}
+
+#demo  td{
+    text-align: left!important;
+}
+
+.listform{
+    margin: 0px;
+}
+
+.listform li {
+    font-family: 'ubuntu','trebuchet ms',sans-serif;
+    font-size: 10pt;
+}
+
+#listQua{
+    width: 300px;
+    padding: 0px;
+    margin: auto;
+}
+
+
+#tabs{
+    
+    position: relative;
+    top: -5px;
+    
+}
+
+.ui-tabs{
+    border: none;
+    
+}
+.ui-tabs-nav{
+    
+    border:none;
+    background-color: transparent;
+}
+
+.ui-tabs-nav li{
+    
+    border: solid 2px 2px 2px 2px!important;
+    
+    border-radius: 5px 5px 5px 5px!important;
+    color: black!important;
+    
+    
+}
+
+#tabs .ui-state-default,#tabCourbes .ui-state-default,#tabQa .ui-state-default{
+    background-color: #D6DE52;
+}
+
+
+#tabs .ui-tabs-active,#tabCourbes .ui-tabs-active,#tabQa .ui-tabs-active{
+    background-color: #83B81A;
+    
+}
+        
+.ui-widget-header{
+    
+    font-weight: normal;
+    
+}
+
+.wijmo-wijaccordion-header{
+    
+    font-size: 12pt;
+    font-weight: normal;
+    
+}
+
+#bzAccordion .wijmo-wijaccordion-header a{
+    color:white!important;
+}
+
+/*filter*/
+.D-filter{
+    
+    /*left: 990px !important;
+    position: absolute!important;
+    top: 70px !important;*/
+    
+    top: 72px !important;
+    width: 150px;
+}
+    
+.wijmo-wijgrid{
+    overflow: auto;
+} 
+
+.listTabActive{
+/*    border: solid #84b819 4px;*/
+}
+
+.grilles_contrats,.analysesAttente{
+    margin-left: inherit;
+/*    max-width: 2048px;*/
+    
+}
+
+
+.table_contrats{
+    padding-left: inherit;
+    
+}
+
+.contrats .titre{
+    
+    
+}
+
+.contrats .com{
+    position: relative;
+    left: 100px;
+    
+}
+
+.wrapper_table div{
+    
+    display: inline-block;
+    
+}
+
+/*-----page accueil --------*/
+.boxTxt{
+        border: solid  #605046 ;
+        height:45px;
+    }
+    
+    #admTxt,#proTxt{
+        border-right-width: 1px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-width: 1px; 
+    }
+    
+    #exeTxt{
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 0px;
+        border-top-width:0px;
+    }
+    
+    #ctTxt{
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-width: 1px; 
+    }
+    
+     #offresTxt{
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-width: 0px; 
+    }
+    
+    #analysesTxt{
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-width: 0px; 
+    }
+    #infosTxt{
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 1px;
+        border-top-width: 1px; 
+    }
+    #tranTxt{
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 1px;
+        border-top-width: 1px; 
+    }
+    
+    .boxTxt > a:visited,a:link{
+        position:relative;
+        top:0px;
+        left:0px;
+       
+       color:#615046!important;
+    }
+    
+    .boxTxt > a:hover{
+        
+        color:#84B819!important;
+    }
+    
+    
+    
+    
+    .accTxt{
+        font-family: 'ubuntu','trebuchet ms',sans-serif;
+        font-size:10pt;
+        font-weight: normal;
+        padding:7px;
+        min-width:150px;
+        min-heigth:100px;
+        background-color:#614A41;
+        color:#ffffff;
+        z-index: 99999;
+    }
+    
+/*------pager grid---------*/
+.wijmo-wijpager-button{
+    
+    
+    background-color: grey;
+}
+
+.wijmo-wijgrid-innercell a:link,a:visited,a:hover{
+    
+    color:white!important;
+    
+}
+
+#logout{
+    z-index: 199999;
+    cursor: pointer;
+}
+
+#logout  a:link,a:visited,a:hover{
+    color:#605046!important;
+    /*font-size: 11pt;*/
+    text-decoration: none;
+     
+} 
+
+/*---grid-----*/
+
+.wijmo-wijgrid .wijmo-wijgrid-headerrow .wijmo-wijgrid-headertext { 
+    padding:0.5em;
+    padding-top: 0.8em;
+    color:white!important;
+}
+.wijmo-wijgrid-row .ui-widget-content .wijmo-wijgrid-datarow{
+    text-align: left;
+}
+
+.wijmo-wijgrid-headertext{
+    font-family: 'ubuntu','Abel','trebuchet ms',sans-serif;
+    font-weight: normal;
+    font-size: 1em!important;
+    
+}
+
+.wijmo-wijgrid-innercell{
+    font-family: 'ubuntu','Abel','trebuchet ms',sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+
+input[type=radio],input[type=checkbox]{
+    width:inherit!important;
+    cursor: pointer;
+}
+  
+.lot td{
+    padding: 3px 1px 2px;
+}
+
+.addLot{
+    padding: 3px 1px 2px 15px;
+}
+
+
+.msgError{
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tabsMatif{
+    padding-left: 0px!important;
+}
+
+.tabsMatif .ui-state-highlight{
+    background-color: #83B81A!important;
+}
+
+#tabQa{
+    font-size: 12pt;
+    min-height: 190px;
+    min-width: 240px;
+}
+
+.criteres{
+    min-height: 210px;
+}
+
+#maskAcc{
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color: transparent;
+    z-index:5000;
+    width:100%;
+    height:100%;
+}
+
+.W_struc{
+    width:120px;
+}
+
+.W_dest{
+    width:140px;
+}
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+ 

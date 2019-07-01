@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="73">
+        <file>
+            <url>public/javascript/library/wijmo/jquery.wijmo-complete.all.2.3.9.uncompress.js</url>
+            <bookmark id="67">
+                <name/>
+                <line>2326</line>
+                <key/>
+            </bookmark>
+            <bookmark id="16">
+                <name/>
+                <line>14347</line>
+                <key/>
+            </bookmark>
+            <bookmark id="13">
+                <name/>
+                <line>20179</line>
+                <key/>
+            </bookmark>
+            <bookmark id="14">
+                <name/>
+                <line>20245</line>
+                <key/>
+            </bookmark>
+            <bookmark id="17">
+                <name/>
+                <line>20379</line>
+                <key/>
+            </bookmark>
+            <bookmark id="15">
+                <name/>
+                <line>20449</line>
+                <key/>
+            </bookmark>
+            <bookmark id="10">
+                <name/>
+                <line>35628</line>
+                <key/>
+            </bookmark>
+            <bookmark id="12">
+                <name/>
+                <line>36015</line>
+                <key/>
+            </bookmark>
+            <bookmark id="11">
+                <name/>
+                <line>36504</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/accueil/index.tpl</url>
+            <bookmark id="24">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="56">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/controllers/TransactionController.php</url>
+            <bookmark id="73">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="69">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="71">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="72">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="64">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>public/javascript/library/cellule.js</url>
+            <bookmark id="65">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="66">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="58">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="57">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="60">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="59">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="61">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>public/javascript/library/S7_functions.js</url>
+            <bookmark id="63">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/transaction/etape3.ajax.tpl</url>
+            <bookmark id="70">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/accueil/index3.tpl</url>
+            <bookmark id="47">
+                <name/>
+                <line>1567</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/accueil/raphaelUncompressed.js</url>
+            <bookmark id="49">
+                <name/>
+                <line>3500</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/administration/contratsasigner.ajax.tpl</url>
+            <bookmark id="6">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>application/views/scripts/prospection/showlot.ajax.tpl</url>
+            <bookmark id="68">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+        <group name="testbruno"/>
+    </open-files>
+</project-private>

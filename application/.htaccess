@@ -1,0 +1,4 @@
+AddType text/cache-manifest manifest
+deny from all
+Options -Indexes
+Options -ExecCGI

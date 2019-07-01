@@ -1,0 +1,18 @@
+#maintenance
+RewriteEngine on
+# optionally exclude your own IP from being redirected
+RewriteCond %{REMOTE_ADDR} !^84\.55\.165\.16
+RewriteCond %{REMOTE_ADDR} !^62\.160\.11\.246 
+RewriteCond %{REMOTE_ADDR} !^88.172.40.112
+RewriteCond %{REQUEST_URI} !/maintenance\.html$
+RewriteCond %{REQUEST_FILENAME} !\.(jpeg|png|css|ico)$
+RewriteRule ^(.*)$ /maintenance.html [R=302,L]
+
+#donne l'envirronnement de developpement 
+SetEnv APPLICATION_ENV production
+#mod rewrite redirection pour toutes les requetes
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]

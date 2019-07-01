@@ -1,0 +1,10 @@
+#empeche l'execution des fichier php
+RemoveHandler .php .phtml .php3 .php4 .php5 .php6
+RemoveType .php .phtml .php3 .php4 .php5 .php6
+php_flag engine off
+
+#interdire l'execution des script cgi
+Options -ExecCGI
+
+deny from all
+Options -Indexes
